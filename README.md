@@ -36,6 +36,8 @@ Sample code for how to use `cl-paging` directive
                      cl-align="start start" , cl-current-page="paging.current"></cl-paging>
 ```
 
+Use `cl.paging` module in your app, following sample code demonstrating How to include the angular module and use it in controller.
+The controller defined below has oble simple configuration of `cl-paging` directive. When the page changed you will get a trigger in the `loadPages` function where you can load page data form remote server.
 
 ```
 var app = angular.module("YourApp", ['ngMaterial', 'cl.paging']);
