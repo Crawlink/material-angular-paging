@@ -1,0 +1,28 @@
+{
+  "name": "material-angular-paging",
+  "homepage": "http://crawlink.com",
+  "version": "0.0.1",
+  "authors": [
+    "Crawlink <crawlink.com@gmail.com>"
+  ],
+  "description": "A Angular Derective for Pagination a Material design website",
+  "main": "",
+  "keywords": [
+    "angular",
+    "Pagination",
+    "Material",
+    "Design"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.5.6",
+    "angular-material": "^1.0.9"
+  }
+}

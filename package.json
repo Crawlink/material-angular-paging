@@ -1,0 +1,35 @@
+{
+  "name": "material-angular-paging",
+  "version": "0.0.1",
+  "description": "A pagination directive for Angular material design library",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "del": "^2.2.0",
+    "fs": "0.0.2",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-nodemon": "^2.0.6",
+    "gulp-uglify": "^1.5.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crawlink/material-angular-paging.git"
+  },
+  "keywords": [
+    "Angular",
+    "material",
+    "pagination",
+    "paging"
+  ],
+  "author": "Crawlink",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Crawlink/material-angular-paging/issues"
+  },
+  "homepage": "https://github.com/Crawlink/material-angular-paging#readme"
+}

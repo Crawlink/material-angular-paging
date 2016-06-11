@@ -1,0 +1,18 @@
+{
+  "name": "demo",
+  "homepage": "https://github.com/Crawlink/material-angular-paging",
+  "authors": [
+    "Crawlink <crawlink.com@gmail.com>"
+  ],
+  "description": "Demo",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
