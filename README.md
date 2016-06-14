@@ -36,6 +36,15 @@ Sample code for how to use `cl-paging` directive
                      cl-align="start start" , cl-current-page="paging.current"></cl-paging>
 ```
 
+##### Attributes
+| Attribute | Description |
+| ------------ | --------------- |
+| `cl-pages` | Total number of pages you want to paginate, calculate pages in your controller then set the value here |
+| `cl-steps` | How many paging item do you want to show in pagination area |
+| `cl-page-changed` | Requires a `function` which will get called when click on page item |
+| `cl-align` | Give two material `layout-align` values [Get alignment values] (https://material.angularjs.org/latest/layout/alignment) |
+| `cl-current-page` | A model for the current page value (Selected page number) |
+
 Use `cl.paging` module in your app, following sample code demonstrating How to include the angular module and use it in controller.
 The controller defined below has oble simple configuration of `cl-paging` directive. When the page changed you will get a trigger in the `loadPages` function where you can load page data form remote server.
 
