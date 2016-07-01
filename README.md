@@ -31,9 +31,10 @@ Add following line in header section of you page
 ```
 
 Sample code for how to use `cl-paging` directive
+
 ```
-<cl-paging flex cl-pages="paging.total" , cl-steps="6" , cl-page-changed="paging.onPageChanged()" ,
-                     cl-align="start start" , cl-current-page="paging.current"></cl-paging>
+<cl-paging flex cl-pages="paging.total" cl-steps="6" cl-page-changed="paging.onPageChanged()" cl-align="start start" cl-current-page="paging.current"></cl-paging>
+
 ```
 
 ##### Attributes
