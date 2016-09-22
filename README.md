@@ -59,7 +59,6 @@ app.controller("MainController", ['$scope', function ($scope) {
     $scope.paging = {
         total: 100,
         current: 1,
-        align: 'center start',
         onPageChanged: loadPages,
     };
 
