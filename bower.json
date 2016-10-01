@@ -6,7 +6,7 @@
     "Crawlink <crawlink.com@gmail.com>"
   ],
   "description": "A Angular Derective for Pagination a Material design website",
-  "main": "",
+  "main": "./lib/directive.js",
   "keywords": [
     "angular",
     "Pagination",
